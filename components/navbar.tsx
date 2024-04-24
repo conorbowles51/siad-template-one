@@ -12,6 +12,7 @@ const Navbar = () => {
       <div className="flex gap-20">
         {routes.map((route, index) => (
           <Link
+            key={index}
             href={route.href}
           >
             {route.name}
