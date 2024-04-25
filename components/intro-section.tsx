@@ -5,7 +5,7 @@ import Button from "./button";
 
 const IntroSection = () => {
   return ( 
-    <section className="flex px-72 my-20 gap-20 items-center">
+    <section className="flex px-72 py-20 gap-20 items-center bg-zinc-50">
       <div className=" h-[700px] w-[500px] relative flex-shrink-0">
         <Image
           src="/portrait.jpg"

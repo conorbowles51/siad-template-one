@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { cn } from "@/util/utils";
+import ScrollFix from "@/components/ScrollFix";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <ScrollFix />
       <body className={cn(montserrat.className, "bg-slate-100 text-zinc-950")}>
         <Navbar />
         {children}
