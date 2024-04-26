@@ -11,7 +11,7 @@ const AboutPart = ({
   src?: string,
   title: string,
   text: string,
-  alt: boolean
+  alt?: boolean
 }) => {
   const bgStyle = alt ? "bg-zinc-50" : "";
   const flexDir = alt ? "flex-row-reverse" : "flex-row";
