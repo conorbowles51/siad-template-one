@@ -12,8 +12,8 @@ const LandingSection = () => {
           {data.landingSection.heading}
         </h1>
 
-        <Button>
-          Start here
+        <Button href="#services">
+          Start Here
         </Button>
       </div>
     </section>

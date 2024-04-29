@@ -1,10 +1,12 @@
 const heading = ({
-  children
+  children,
+  color
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  color?: string
 }) => {
   return (
-    <h2 className="text-5xl font-bold">{children}</h2>
+    <h2 className={"text-5xl font-bold " + (color ? color : "")}>{children}</h2>
   );
 }
  

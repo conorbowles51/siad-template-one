@@ -6,7 +6,7 @@ import Heading from "./heading";
 
 const ServicesSection = () => {
   return ( 
-    <section className="flex flex-col py-20 items-center">
+    <section className="flex flex-col py-20 items-center" id="services">
       <Heading>How May I Help You?</Heading>
 
       <Separator className="mt-12 mb-24"/>
