@@ -1,7 +1,18 @@
+import AboutPart from '@/components/about-part'
+import { aboutParts } from '@/util/data'
 import React from 'react'
 
 export default function About() {
   return (
-    <div>About</div>
+    <main>
+      {
+        aboutParts.map((part, index) => (
+          <AboutPart
+            key={index}
+            {...part}
+          />
+        ))
+      }
+    </main>
   )
 }
