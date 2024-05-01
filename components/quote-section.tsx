@@ -6,7 +6,6 @@ const QuoteSection = () => {
       </div>
 
       <h2 className="w-[50%] text-white text-2xl font-bold z-[10] italic absolute top-[40%] left-[25%] text-center">
-        "Learn to deal with the fact that you are not a perfect person but you are a person that deserves respect and honesty."
       </h2>
     </section>  
   );
