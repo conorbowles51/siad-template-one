@@ -26,7 +26,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-[1rem]">
               {q.title}
             </AccordionTrigger>
-            <AccordionContent className="text-[1rem] text-black/80 whitespace-pre-wrap">
+            <AccordionContent className="text-[1rem] text-white/80 whitespace-pre-wrap">
               {q.text}
             </AccordionContent>
           </AccordionItem>

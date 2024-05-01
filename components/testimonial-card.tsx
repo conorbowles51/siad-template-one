@@ -9,7 +9,7 @@ const TestimonialCard = ({
 }) => {
   return (
     <div className="flex flex-col gap-5 text-center items-center justify-center p-10">
-      <p className="ml-5 text-zinc-500 italic text-2xl font-semibold text-center font-light">
+      <p className="ml-5 text-zinc-500 italic text-2xl text-center font-light">
         "{text}"
       </p>
       <Avatar>
